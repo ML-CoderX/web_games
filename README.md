@@ -48,3 +48,4 @@ The build includes Rapier's embedded WebAssembly. Vite reports gzip sizes; `npm 
 The automated suite checks cargo settling, drop counting, delayed rebuilds, checkpoint activation and retry, mass/friction/gravity changes, and complete normal-input traversals of all six courses at default tuning. It also fires cargo at the player's body on two axes and stress-tests actual tray/capsule separation for 720 physics steps. Traversal uses only movement, camera yaw, and jump inputs; it never teleports bodies or suppresses failures. Some runs deliberately recover through checkpoints. It is a reproducible completion check, not a claim that the courses have been balanced with human playtesting.
 
 The desktop browser UI was checked for rendering, level selection, keyboard retry, mute, tuning controls, and pause/resume. Sustained 60 fps on a representative mid-range laptop and sub-five-second cold loading over a real network have not been benchmarked.
+made by saad
